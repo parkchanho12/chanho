@@ -20,6 +20,7 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
 	/**
+<<<<<<< HEAD
 	 * CONTACT US 페이지 파일 입니다.
 	 */
 	@RequestMapping(value = "/contactus", method = RequestMethod.GET)
@@ -57,6 +58,12 @@ public class HomeController {
 	
 	/**
 	 * html5 테스트용 파일 입니다.
+=======
+	 * html5 테스트용 파일 입니다.
+	 * @param locale
+	 * @param model
+	 * @return
+>>>>>>> refs/remotes/origin/master
 	 */
 	@RequestMapping(value = "/htmltest", method = RequestMethod.GET)
 	public String htmltest(Locale locale, Model model) {
