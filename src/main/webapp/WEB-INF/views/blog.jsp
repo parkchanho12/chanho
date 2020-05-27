@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="false"%>
@@ -16,6 +15,56 @@
 <link rel="stylesheet" type="text/css" href="/resources/css/reset.css">
 <link rel="stylesheet" type="text/css" href="/resources/css/common.css">
 <style>
+/* BLOG 영역 CSS */
+.blog-section {
+margin-top:77px;
+}
+.blog-section .sec-tit {
+margin-bottom:47px;
+text-align:center;
+}
+.blog-section .blog-list li {
+width:100%;
+margin-top:45px;
+}
+.blog-section .blog-list li:first-child {
+margin-top:0;
+}
+.blog-section .blog-list li img {
+display:block;
+width:100%;
+max-width:100%;
+height:auto;
+}
+.blog-section .blog-list li time {
+display:block;
+margin:11px 0 10px 0;
+font-size:11px;
+color:#9e9e9e;
+}
+.blog-section .blog-list li h3 {
+color:#424242;
+font-weight:normal;
+line-height:1.6;
+}
+/* 태블릿용 CSS */
+@media all and (min-width:768px) {
+.blog-section {
+margin-top:124px;
+}
+.blog-section .sec-tit {
+margin-bottom:76px;
+}
+.blog-section .blog-list li {
+float:left;
+width:31.59722222222%;
+margin-left:2.60416666666%;
+margin-top:0;
+}
+.blog-section .blog-list li:first-child {
+margin-left:0;
+}
+}
 </style>
 <script src="/resources/js/jquery.min.js"></script>
 <script src="/resources/js/common.js"></script>
@@ -47,13 +96,13 @@
 			<div class="container">
 				<h2 class="sec-tit">BLOG</h2>
 				<ul class="blog-list">
-					<li><a href="#"><img src="/resources/images/summer.jpg" alt=""></a>
+					<li><a href="#" onclick="return false"><img src="/resources/images/summer.jpg" alt=""></a>
 						<time datetime="2016-10-30">OCT 30, 2016</time> <a href=""><h3>타임스페이스는
 								사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
-					<li><a href="#"><img src="/images/contents2.jpg" alt=""></a>
+					<li><a href="#" onclick="return false"><img src="/resources/images/summer.jpg" alt=""></a>
 						<time datetime="2016-10-30">OCT 30, 2016</time> <a href=""><h3>타임스페이스는
 								사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
-					<li><a href="#"><img src="/resources/images/summer.jpg" alt=""></a>
+					<li><a href="#" onclick="return false"><img src="/resources/images/summer.jpg" alt=""></a>
 						<time datetime="2016-10-30">OCT 30, 2016</time> <a href=""><h3>타임스페이스는
 								사용자 중심의 웹페이지를 제작하는 회사 입니다.</h3></a></li>
 				</ul>
@@ -63,17 +112,5 @@
 			<p class="copyright">LOGO</p>
 		</footer>
 	</div>
-=======
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
->>>>>>> refs/remotes/origin/master
 </body>
 </html>
